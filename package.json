@@ -1,0 +1,14 @@
+{
+  "name": "congreso-neuro",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve -p 3000 .",
+    "build": "mkdir -p dist && cp -r index.html css js assets dist/",
+    "start": "serve -p 3000 ."
+  },
+  "dependencies": {
+    "jimp": "^1.6.1",
+    "pngjs": "^7.0.0",
+    "serve": "^14.2.1"
+  }
+}
